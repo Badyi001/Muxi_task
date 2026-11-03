@@ -1,0 +1,285 @@
+html {
+    height: 100vh;
+    width: 100vw;
+}
+
+body {
+    height: 100%;
+    width: 100%;
+    display: grid;
+    grid-template-areas: "side head head"
+        "side main main"
+        "side botton botton";
+    grid-template-columns: 10% 1fr 1fr;
+    grid-template-rows: 3% 90% 7%;
+    margin: 0px;
+
+}
+
+.main {
+    background-color: #121212;
+    grid-area: main;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.head {
+    background-color: #121212;
+    display: flex;
+    grid-area: head;
+}
+
+.botton {
+    background-color: #121212;
+    display: flex;
+    justify-items: center;
+    flex-shrink: 0;
+    grid-area: botton;
+}
+
+.login {
+    border-radius: 15px;
+    background-color: #181817;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    left: 78%;
+    height: 40px;
+    width: 80px;
+    color: #fff;
+    border: 0px;
+    cursor: pointer;
+}
+
+.download {
+    border-radius: 15px;
+    background-color: #F5F5F5;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    left: 80%;
+    height: 40px;
+    width: 200px;
+    border: 0px;
+    color: #111111;
+    cursor: pointer;
+}
+
+.login:hover {
+    background-color: #2b2b29;
+    transition: all 0.1s;
+}
+
+.explore {
+    background-color: #121212;
+    color: #7b7b7b;
+    border-radius: 16px;
+    border: 0px;
+    width: 85px;
+    height: 40px;
+    bottom: 10%;
+    position: relative;
+    bottom: 0%;
+    left: 50%;
+
+}
+
+
+.explore:hover {
+    background-color: #f8ff3ca5;
+    color: #fffb00;
+
+    transition: all 0.5s;
+}
+
+.explore:hover::after {
+    content: "探索灵感 >>";
+}
+
+.explore::after {
+    content: "探索灵感";
+}
+
+span {
+    position: absolute;
+    left: 30vw;
+    bottom: 8%;
+    color: #2b2b29;
+}
+
+.morebox1 {
+    background-color: #2b2b29;
+    border-radius: 10px;
+    width: 170px;
+    height: 370px;
+    position: absolute;
+    top: 37vh;
+    left: 185px;
+    margin-left: 5px;
+    display: flex;
+    flex-direction: column;
+    visibility: hidden;
+}
+
+.morebox1:hover {
+    visibility: visible;
+}
+
+.logo {
+    position: relative;
+}
+
+.form {
+    background-color: #2b2b29;
+    border-radius: 20px;
+    height: 35%;
+    width: 80%;
+    margin-left: 10%;
+    z-index: 0;
+    position: relative;
+    border: 1px solid #7b7b7b;
+}
+
+form {
+    height: 40%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.input {
+    background-color: #2b2b29;
+    height: 35%;
+    width: 97%;
+    margin-left: 1%;
+    margin-top: 1%;
+    border: 0px;
+}
+
+
+
+.input:focus {
+    border-color: #2b2b29;
+    outline: none;
+    caret-color: white
+}
+
+.xia {
+    width: 100%;
+    height: 50%;
+    position: relative;
+    bottom: 0%;
+    display: flex;
+    align-items: center;
+}
+
+.jia {
+    height: 50px;
+    width: 50px;
+    background-color: #2b2b29;
+    border-radius: 50%;
+    font-size: 60px;
+    color: #fff;
+    margin-left: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.jia:hover {
+    background-color: #7b7b7b;
+    transition: all 0.2s;
+}
+
+.box2 {
+    height: 30px;
+    width: 80px;
+    background-color: #3f3f3e;
+    border-radius: 20px;
+    position: relative;
+    right: -70%;
+    top: 10%;
+    color: #fff;
+    padding-left: 10px;
+    cursor: pointer;
+}
+
+.box2:hover {
+    background-color: #90908b;
+    transition: all 0.2s;
+
+}
+
+.fasong {
+    height: 50px;
+    width: 50px;
+    background-color: #90908b;
+    border-radius: 50%;
+    position: relative;
+    right: -80%;
+    cursor: pointer;
+}
+
+.fasong:hover {
+    background-color: #b2b2ac;
+}
+
+.more {
+    width: 74%;
+    background-color: #2b2b29;
+    border-radius: 0 0 18px 18px;
+    padding: 12px 18px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-left: 12%;
+}
+
+.ooo1 {
+    background-color: #2b2b29;
+    border-radius: 999px;
+    padding: 7px 14px;
+    font-size: 13px;
+    color: #D9D9D9;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+
+.ooo1:hover {
+    background-color: #3f3f3e;
+}
+
+.extra {
+    width: 78%;
+    height: 20%;
+    display: flex;
+    justify-content: center;
+    background-color: #121212;
+    position: relative;
+    border: 0px;
+    margin-left: 12%;
+    gap: 100px;
+    margin-top: 20px;
+}
+
+.ooo2 {
+    background-color: #121212;
+    border: 1px solid #2b2b29;
+    border-radius: 10px;
+    font-size: 20px;
+    color: #D9D9D9;
+    padding-left: 10px;
+    padding-right: 10px;
+    height: 48%;
+    padding-top: 5px;
+    cursor: pointer;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.ooo2:hover {
+    background-color: #7b7b7b;
+    transition: all 0.2s;
+}
