@@ -1,0 +1,156 @@
+/*大布局*/
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 0px;
+    min-height: 100vh;
+}
+
+.head {
+    height: 80px;
+    width: 100%;
+    border-bottom: 1px solid #f4f4f4;
+}
+
+.main {
+    flex: 1;
+    width: 100%;
+    background-color: #eeeeee;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.botton {
+    height: 7vw;
+    width: 100%;
+    background-color: #333;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+}
+
+/*底部*/
+.imgMiao {
+    width: auto;
+    height: 30px;
+}
+
+.imgText {
+    width: auto;
+    height: 16px;
+    margin-top: 8px;
+}
+
+.mainWidth {
+    width: 1000px;
+    background-color: #fff;
+    border-radius: 3px;
+
+}
+
+/*main布局*/
+.banner {
+    height: 348px;
+    width: 1000px;
+    object-fit: cover;
+}
+
+.mainBox1 {
+    height: 400px;
+    background-color: #fff;
+    margin-bottom: 5px;
+}
+
+.mainBox2 {
+    height: 300px;
+    background-color: #fff;
+    margin-bottom: 5px;
+}
+
+.mainBox3 {
+    height: 300px;
+    background-color: #fff;
+}
+
+/*head部分*/
+.headbox {
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: space-between;
+    height: 100%;
+    width: 1000px;
+
+}
+
+.option1 {
+    height: 60%;
+    width: auto;
+    margin: auto 0;
+
+}
+
+.option2 {
+    border-top: 10px solid red;
+    width: 40px;
+    padding-top: 15px;
+    padding-left: 8px;
+    color: red;
+}
+
+.option3 {
+    padding-top: 25px;
+}
+
+.option4 {
+    display: flex;
+    gap: 0px;
+    justify-content: center;
+    align-items: center;
+}
+
+.searchBox {
+    border: 3px solid red;
+    width: 200px;
+    height: 35%;
+    box-sizing: border-box;
+    padding-left: 10px;
+}
+
+.searchButton {
+    height: 35%;
+    background-color: red;
+    width: 30px;
+    cursor: pointer;
+}
+
+.option5 {
+    height: 75%;
+    width: auto;
+    margin: auto 0;
+}
+
+.option6 {
+    height: 60%;
+    width: 100px;
+    margin: auto 0;
+    background-color: #1dc091;
+    cursor: pointer;
+    border: none;
+}
+
+.searchIcon {
+    height: 90%;
+    width: auto;
+}
+
+
+/*main1部分*/
+
+/*main2部分*/
+
+
+/*main3部分*/
