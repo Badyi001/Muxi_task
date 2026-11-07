@@ -62,18 +62,33 @@ body {
     height: 400px;
     background-color: #fff;
     margin-bottom: 5px;
+    padding-left: 5%;
+    padding-right: 5%;
+    box-sizing: border-box;
+    display: flex;
 }
 
 .mainBox2 {
     height: 300px;
     background-color: #fff;
     margin-bottom: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 .mainBox3 {
     height: 300px;
     background-color: #fff;
+    margin-bottom: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
+
+
 
 /*head部分*/
 .headbox {
@@ -149,8 +164,171 @@ body {
 
 
 /*main1部分*/
+.card {
+    width: 25%;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+.circle {
+    width: 76px;
+    height: 76px;
+    border-radius: 999px;
+    border: 3PX solid #1dc091;
+    color: #1dc091;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+}
+
+.text {
+    height: 50%;
+    width: 100%;
+}
+
+h3 {
+    margin: 0px;
+    margin-top: 10px;
+    font-size: 19px;
+}
+
+h4 {
+    margin: 0px;
+    font-size: 15px;
+    text-indent: 19px;
+}
+
+h5 {
+    margin: 0px;
+    margin-top: 10px;
+    font-size: 19px;
+    color: #f44336;
+}
+
+h6 {
+    margin: 0px;
+    font-size: 15px;
+    text-indent: 19px;
+    color: #f44336;
+}
+
+.add {
+    width: 30px;
+    height: 30px;
+    border-radius: 999px;
+    border: 3PX solid #1dc091;
+    color: #1dc091;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    margin-top: 10px;
+}
 
 /*main2部分*/
+.mainBox_text1 {
+    justify-content: center;
+    font-size: 20px;
+}
 
+.mainBox_text2 {
+    color: #1dc091;
+    font-size: 10px;
+}
+
+.class1 {
+    border: 1px solid #1dc091;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 20%;
+}
+
+.class1_active {
+    background-color: #1dc091;
+    border-color: #1dc091;
+    color: #fff;
+}
+
+.mainBox2_box1 {
+    height: 50%;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.num {
+    display: flex;
+    font-size: 44px;
+    color: #f44336;
+    padding-bottom: 6px;
+    width: 20%;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.underLine {
+    background-color: #f44336;
+    height: 2px;
+    width: 44px;
+}
 
 /*main3部分*/
+.mainBox3_box {
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 80%;
+}
+
+.recommendClass {
+    background-color: #eb6e65;
+    width: 25%;
+    height: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-left: 3px;
+}
+
+.recommendClass_active {
+    background-color: #f44336;
+    width: 25%;
+    height: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-left: 3px;
+    position: relative;
+}
+
+.imgRedmiao {
+    position: absolute;
+    bottom: 100%;
+}
+
+.recommendClass_text1 {
+    font-size: 25px;
+    margin: 0px;
+    color: #fff;
+}
+
+.recommendClass_text2 {
+    font-size: 15px;
+    margin: 0px;
+    color: #fff;
+}
